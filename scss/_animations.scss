@@ -1,0 +1,53 @@
+@keyframes soldanGelenYazi{
+
+    0%{
+        transform: translateX(-50%);
+
+    }
+
+    70%{
+        transform: translateX(20%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes sagdanGelenYazi{
+
+    0%{
+        transform: translateX(50%);
+    }
+
+    70%{
+        transform: translateX(-20%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes ortayaCik{
+    0%{
+        transform: scale(0)
+    }
+    70%{
+        transform: scale(1.2)
+    }
+    100%{
+        transform: scale(1) 
+    }
+}
+
+@keyframes ortayaCik2{
+    0%{
+        transform: scale(.6)
+    }
+    100%{
+        transform: scale(1)
+    }
+}

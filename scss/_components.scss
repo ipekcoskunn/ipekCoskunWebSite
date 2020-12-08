@@ -1,0 +1,70 @@
+.site-logo{
+    height: 4rem;
+    transition: .7s;
+    &:hover{
+        transform: rotate(1turn);
+    }
+}
+
+.header-title{
+    font-size: 2rem;
+    color: white;
+    animation: soldanGelenYazi 1.2s;
+}
+
+.header-subtitle{
+    font-size: 1rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    animation: sagdanGelenYazi 1.2s;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: $main-color;
+    border-radius: 1000px;
+    padding: 0.25rem 1rem;
+    border: none;  /*butonda siyahlık gitti*/
+    &:hover{
+        color: white;
+        background-color: $main-color-light;
+    }
+    animation: ortayaCik 1.2s;
+}
+
+.icon-asagi{
+    position: absolute;
+    width: 2.5rem;
+    bottom: 1rem;
+    animation: ortayaCik2 1s alternate infinite; //geri sarıp çıkıyor
+}
+
+.tecrube-card{
+    text-align: center;
+    padding:1rem;
+    margin: .7rem 1rem;
+    border:1px solid $main-font-color;
+    border-radius: 0.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    transition: 0.5s ease-in-out;
+    flex: 1;
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    &--trepas{
+        background-image: url(/img/tecrube4.jpg);
+    }
+    &--payguru{
+        background-image: url(/img/tecrube4.jpg);
+    }
+    &--erdi{
+        background-image: url(/img/tecrube4.jpg);
+    }
+}

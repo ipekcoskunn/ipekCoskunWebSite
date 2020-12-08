@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+@import 'animations';
+@import 'layouts';
+@import 'components';
+
+
+.form{
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.form-label{
+    color: $main-font-color;
+    font-weight: bold;
+    display: block;
+    font-size: 0.8rem;
+}
+
+.form-input{
+    width: 100%;
+    margin-top: .25rem;
+    margin-bottom: .75rem;
+    outline: none;
+    border: 1px solid $main-font-color;
+    border-radius: .3rem;
+    padding:0.5rem;
+    color: inherit;
+    resize: vertical; //sadece dikeyde boyutlansın textarea
+    max-height: 150px;
+    &:hover, &:focus{
+        border-color: $main-color;
+    }
+}
+
+.btn-container{
+    text-align: right;
+}
+
+.btn-kare{
+    font-size: 1rem;
+    border-radius: .3rem;
+    padding: .3rem 1rem;
+}
